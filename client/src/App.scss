@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.vip-background {
+  background-color: #B0936B;
+}
+
+.guest-list{
+  height: 70vh;
+  overflow-y:  scroll;
+  &__75h{
+    @extend .guest-list;
+    height: 75vh;
+  }
+}
+.t-row{border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+}
+
+// .bg-img{
+//   background-image: url("./assets/detbanner.png");
+// }
+
+.brand-logo{
+  width: 20rem;
+}
